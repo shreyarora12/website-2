@@ -36,7 +36,7 @@ overcommit --install
 The CrimethInc. website uses the [Scripts to Rule Them All](https://githubengineering.com/scripts-to-rule-them-all) pattern.
 See also: https://github.com/github/scripts-to-rule-them-all
 
-`/script` is a collection of scripts for development on an macOS computer.
+`/script` is a collection of scripts for development on a macOS computer.
 Development setup on a Windows or Linux computer will likely vary.
 
 If any of these scripts fail for you, [file an issue](https://github.com/crimethinc/website/issues)
@@ -123,7 +123,7 @@ This will import (scrubbed) production data into your local development database
 
 #### Can’t Find Posgresql Error
 
-If you get an error when starting the server that Rails can’t connect to the Posgresql server, you can fix it with these steps. (Assuming, you’re on a Mac and use [Homebrew](https://brew.sh)).
+If you get an error while starting the server that Rails can’t connect to the Posgresql server, you can fix it with these steps. (Assuming, you’re on a Mac and use [Homebrew](https://brew.sh)).
 
 **WARNING:** These step will DELETE all Posgresql databases / software and re-install Posgresql from scratch.
 If you have data in your local Posgresql database that you can’t re-create after deleting it, you’ll want to run some backups first. (That’s an exercise for the reader.)
